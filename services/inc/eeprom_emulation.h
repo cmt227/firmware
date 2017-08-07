@@ -668,8 +668,9 @@ public:
                                                             indexBegin,
                                                             indexBegin + length);
 
-            Address endAddress = getPageEnd(destinationPage);
-
+            //Address endAddress = getPageEnd(destinationPage);
+	    // got compiler error for unused variable
+	    
             // Write new records to destination directly
             success = success && writeRangeDirect(writeAddress,
                                                   getPageEnd(destinationPage),

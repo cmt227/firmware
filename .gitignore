@@ -1,3 +1,7 @@
+# Vim swap files and logs
+*.swp
+*.log
+
 # Object files
 *.o
 
